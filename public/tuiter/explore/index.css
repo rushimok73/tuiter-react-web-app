@@ -1,0 +1,110 @@
+body {
+    font-family: "Arial";
+    background-color: black;
+    color: white;
+    margin-left: 16px;
+}
+
+/*Search Bar*/
+.wd-input {
+    padding-left: 20px;
+    margin-left: 40px;
+    margin-top: 16px;
+    width: 80%;
+    border-radius: 50px;
+    border-width: 0px;
+    font-size: 1.5em;
+    background-color: rgb(31,32,34);
+    color: white;
+    height: 40px;
+}
+
+.wd-gear {
+    font-size: 2.2em;
+    color: rgb(29,161,242);
+    text-decoration: none;
+    margin-top: 16px;
+    margin-right: 12px;
+}
+
+/*Nav menu*/
+.wd-top-container {
+    border: solid 1px rgb(47, 51, 54);
+}
+
+.wd-nav-tabs-flex {
+    width: 100%;
+    color: rgb(110, 118, 125);
+    margin-bottom: 0px;
+}
+
+.wd-nav-tabs-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.wd-nav-tabs-flex li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 16px 16px 16px 16px;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+
+.wd-nav-tabs-flex .wd-selected {
+    color: rgb(29,161,242);
+    border-bottom: solid 4px rgb(29,161,242);
+}
+
+/*Suggested Posts*/
+.wd-suggested-post {
+    border: solid 1px rgb(47, 51, 54);
+}
+
+.wd-suggested-topic {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+.wd-retweets {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+.wd-suggested-title {
+    color: white;
+    font-size: 18px;
+}
+
+.wd-float-right {
+    float: right;
+}
+
+.wd-float-left {
+    float: left;
+}
+
+.wd-float-done {
+    clear: both;
+}
+
+.wd-know-more {
+    font-size: 20px;
+}
+
+.wd-suggested-author {
+    font-size: 13px;
+}
+
+.wd-suggested-posting-date {
+    font-size: 11px;
+}
+
+.wd-round-corners {
+    border-radius: 20px;
+}
+
+.wd-right-16 {
+    margin-right: 16px;
+}
+

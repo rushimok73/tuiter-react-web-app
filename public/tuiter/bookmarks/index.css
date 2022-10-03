@@ -1,0 +1,86 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "Arial";
+}
+
+
+.wd-profile-pic {
+    border-radius: 24px;
+    margin-left: 16px;
+    margin-top: 12px;
+}
+
+.wd-post-link {
+    border: solid 1px rgb(47, 51, 54);
+    border-radius: 15px 15px 15px 15px;
+}
+
+.wd-link-img {
+    border-radius: 15px 15px 0px 0px;
+}
+
+.wd-post-content {
+    margin-top: 12px;
+    margin-left: 12px;
+    width: 504px;
+}
+
+.wd-bookmarked-post {
+    border: solid 1px rgb(47, 51, 54);
+}
+
+.wd-user-info {
+    font-size: 15px;
+}
+
+.wd-top-bar {
+    border: solid 1px rgb(47, 51, 54);
+}
+
+.wd-username {
+    color: rgb(128,128,128);
+}
+
+.wd-inline {
+    display: inline;
+}
+
+.wd-float-right {
+    float: right;
+}
+
+.wd-float-left {
+    float: left;
+}
+
+.wd-float-done {
+    clear: both;
+}
+
+.wd-margin-left-10 {
+    margin-left: 10px;
+}
+
+.wd-icons-flex {
+    padding-left: 0px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.wd-icons-flex li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.wd-icons-flex li > a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.wd-icons-flex li > a > .wd-selected {
+    color: red;
+}
