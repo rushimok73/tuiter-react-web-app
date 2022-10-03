@@ -59,6 +59,7 @@ body {
 /*Suggested Posts*/
 .wd-suggested-post {
     border: solid 1px rgb(47, 51, 54);
+    padding: 12px 12px 12px 12px;
 }
 
 .wd-suggested-topic {
