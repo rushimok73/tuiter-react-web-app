@@ -2,97 +2,192 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Explore</title>
-
-    <link href = "index.css" rel="stylesheet" />
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+          rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+          rel="stylesheet"/>
+    <link href="index.css" rel="stylesheet"/>
 </head>
 <body>
-    <div>
-        <div class="wd-top-container" >
-            <!--        Search Bar-->
-            <div>
-                <input class="wd-input wd-float-left" placeholder="&#128269;   Search Tuiter"/>
-                <a class="wd-gear wd-float-right" href = "explore-settings.html">&#x2699;</a>
-                <div class="wd-float-done"></div>
+<div class="container pt-1">
+    <div class="row">
+        <div class="col-12 col-sm-2 col-md-2 col-lg-1 col-xl-2 col-xxl-2">
+            <div class="list-group">
+                <div class="list-group-item list-group-item-action bg-black">
+                    <i class="fas fa-home" style="color: white"></i>
+                    <a class="text-decoration-none d-none d-xl-inline text-white fs-5 ps-3 pt-1" href="https://en.wikipedia.org/wiki/Dune_(novel)">Home</a>
+                </div>
+                <div class="list-group-item list-group-item-action bg-black">
+                    <i class="fas fa-hashtag" style="color: white"></i>
+                    <a class="text-decoration-none d-none d-xl-inline text-white fs-5 ps-3 pt-1" href="https://en.wikipedia.org/wiki/Dune_(novel)">Explore</a>
+                </div>
+                <div class="list-group-item list-group-item-action bg-black">
+                    <i class="fas fa-bell" style="color: white"></i>
+                    <a class="text-decoration-none d-none d-xl-inline text-white fs-5 ps-3 pt-1" href="https://en.wikipedia.org/wiki/Dune_(novel)">Notifications</a>
+                </div>
+                <div class="list-group-item list-group-item-action bg-black">
+                    <i class="fas fa-envelope" style="color: white"></i>
+                    <a class="text-decoration-none d-none d-xl-inline text-white fs-5 ps-3 pt-1" href="https://en.wikipedia.org/wiki/Dune_(novel)">Messages</a>
+                </div>
+                <div class="list-group-item list-group-item-action bg-black">
+                    <i class="fas fa-bookmark" style="color: white"></i>
+                    <a class="text-decoration-none d-none d-xl-inline text-white fs-5 ps-3 pt-1" href="https://en.wikipedia.org/wiki/Dune_(novel)">Bookmarks</a>
+                </div>
+                <div class="list-group-item list-group-item-action bg-black">
+                    <i class="fas fa-list-alt" style="color: white"></i>
+                    <a class="text-decoration-none d-none d-xl-inline text-white fs-5 ps-3 pt-1" href="https://en.wikipedia.org/wiki/Dune_(novel)">Lists</a>
+                </div>
+                <div class="list-group-item list-group-item-action bg-black">
+                    <i class="fas fa-user" style="color: white"></i>
+                    <a class="text-decoration-none d-none d-xl-inline text-white fs-5 ps-3 pt-1" href="https://en.wikipedia.org/wiki/Dune_(novel)">Profile</a>
+                </div>
+                <div class="list-group-item list-group-item-action bg-black">
+                    <div class="wd-ellipsis float-start">•••</div>
+                    <a class="text-decoration-none d-none d-xl-inline text-white fs-5 ps-3 pt-1 float-start" href="https://en.wikipedia.org/wiki/Dune_(novel)">More</a>
+                </div>
+            </div>
+            <button class="btn btn-primary w-100 mt-5 rounded-pill p-2">
+                Tuit
+            </button>
+
+            <br/><br/><br/><br/><br/>
+        </div>
+        <div class="col-12 col-sm-10 col-md-10 col-lg-7 col-xl-6 col-xxl-6 p-0">
+            <div class="ms-3">
+                <div class="border-start position-relative border-end border-bottom border-secondary pt-2">
+                    <div class="row">
+                        <div class="col-10" style="padding: 0px 16px 10px 40px;">
+                            <input class="ps-5 form-control rounded-pill wd-search-input" placeholder="Search Tuiter"/>
+                            <i class="fas fa-search position-absolute wd-search-icon left-0 top-0"></i>
+                        </div>
+                        <div class="col-2">
+                            <i class="fas fa-cog wd-cog-tuiter" style="font-size: 1.5em"></i>
+                        </div>
+                    </div>
+
+                    <ul class="nav nav-tabs mt-1 nav-fill border-bottom-0"  style="padding: 0px 0px 0px 0px;">
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="for_you.html">
+                                For You
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="trending.html">
+                                Trending
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="news.html">
+                                News
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="sports.html" tabindex="-1">
+                                Sports
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="entertainment.html" tabindex="-1">
+                                Entertainment
+                            </a>
+                            <div class = "wd-active mb-0 fw-bold rounded-pill"></div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="position-relative border-start border-end border-secondary">
+                    <img src="https://i.ytimg.com/vi/bZYPI4mYwhw/maxresdefault.jpg" width="100%"/>
+                    <div class="position-absolute bottom-0 left-0 me-1 mb-1 text-white">
+                        <p class="ms-2 mb-0">Music . Last night</p>
+                        <h2 class="ms-2">BTS and Coldplay release their new song, My Universe 🪐</h2>
+                    </div>
+                </div>
+                <ul class="list-group border border-secondary rounded-0">
+
+                    <li class="list-group-item bg-black text-white">
+                        <div class="position-relative">
+                            <div class="text-secondary">Trending in rnb and soul</div>
+                            <div class="position-absolute text-secondary top-0 left-0" style="margin-left:98%;">...</div>
+                            <div>R Kelly</div>
+                            <div class="text-secondary">18.2K Tweets</div>
+                        </div>
+                    </li>
+                    <li class="list-group-item bg-black text-white">
+                        <div class="position-relative">
+                            <div class="text-secondary">Trending in rnb and soul</div>
+                            <div class="position-absolute text-secondary top-0 left-0" style="margin-left:98%;">...</div>
+                            <div>Chloe</div>
+                            <div class="text-secondary">Trending with <a href="#">Halle</a></div>
+                        </div>
+                    </li>
+                    <li class="list-group-item bg-black text-white container">
+                        <div class="row justify-align-between">
+                            <div class="col-10 col-sm-9 col-md-10 col-lg-10 col-xl-10 col-xxl-10">
+                                <i class="fa-solid fa-t text-white float-start bg-secondary rounded"
+                                   style="font-size: 0.9em; margin-top: 6px;"></i>
+                                <div class="float-start ps-3">The Times</div>
+                                <i class="fa-solid ms-1 mt-1 float-start fa-square-check text-white"></i>
+                                <div class="float-start text-secondary float-none">.  September 24 2021</div>
+
+                                <div>Stanley Tucci: 'Food or Sex? That's the cruelest question...'</div>
+                            </div>
+
+                            <div class="top-0 bg-secondary col-1 ms-0">
+                                <img src="https://api.curtisbrown.co.uk/media/63159/show/square" height="80px"/>
+                            </div>
+
+                        </div>
+
+
+                    </li>
+                </ul>
             </div>
 
-            <!--        Nav Tabs-->
-
-            <ul class="wd-nav-tabs-flex">
-                <li class="wd-selected">For you</li>
-                <li>Trending</li>
-                <li>COVID-19</li>
-                <li class="wd-selected">News</li>
-                <li>Sports</li>
-            </ul>
         </div>
-
-        <!--        Suggested Post-->
-        <div class="wd-suggested-post">
-            <div class="wd-float-left">
-                <h3 class="wd-suggested-topic">Trending in Science</h3>
-                <h1 class="wd-suggested-title">Starship</h1>
-                <h3 class="wd-retweets">55.5K Tweets</h3>
+        <div class="col-12 d-none d-lg-block col-lg-4 col-xl-4 col-xxl-4">
+            <div class="bg-dark ms-3 p-3 pb-0 pt-2 mt-2" style="height: fit-content; --bs-bg-opacity: .9; border-radius: 10px 10px 10px 10px;">
+                <div class="fs-5 fw-bold pb-2" style="padding-left: 10px;">Who to follow</div>
+                <div class="row mt-1">
+                    <div class="col-2">
+                        <img src="https://d2gg9evh47fn9z.cloudfront.net/1600px_COLOURBOX14794080.jpg"
+                             width="45px" height="45px" class="rounded-circle"/>
+                    </div>
+                    <div class="col-6 ps-4">
+                        <div>
+                            <div class="fw-bold" style="font-size: 0.9em; margin-left: -15px;">The Babylon Bee</div>
+                            <div style="font-size: 0.9em; margin-left: -15px;">@TheBabylonBee</div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <button class="rounded-pill bg-white border-0 pt-1 pb-1 fw-bold" style="width: 100%;">
+                            Follow
+                        </button>
+                    </div>
+                </div>
+                <div class="row mt-3 pb-2">
+                    <div class="col-2">
+                        <img src="https://miro.medium.com/max/760/1*JpWlHHwE729wdHBH-4MTRw.jpeg"
+                             width="45px" height="45px" class="rounded-circle"/>
+                    </div>
+                    <div class="col-6 ps-4">
+                        <div>
+                            <div class="fw-bold" style="font-size: 0.9em; margin-left: -15px;">Trolly</div>
+                            <div style="font-size: 0.9em; margin-left: -15px;">@trollytrollface</div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <button class="rounded-pill bg-white border-0 pt-1 pb-1 fw-bold" style="width: 100%;">
+                            Follow
+                        </button>
+                    </div>
+                </div>
+                <a class="row mt-3 pb-2 ps-5 text-decoration-none" href="#">Show more</a>
             </div>
-            <p class="wd-know-more wd-float-right">...</p>
-            <div class="wd-float-done"></div>
+            <div class="text-secondary ms-3 p-2" style="font-size: 0.8em;">Terms of Service  Privacy Policy  Cookie Policy</div>
+            <div class="text-secondary ms-3 p-2 pt-0 mt-0" style="font-size: 0.8em;">Ads info More...  Ⓒ 2022 Tuiter, inc.</div>
         </div>
-
-        <div class="wd-suggested-post">
-            <div class="wd-float-left">
-                <h3 class="wd-suggested-topic">Sports . Trending</h3>
-                <h1 class="wd-suggested-title">Joe Rogan</h1>
-                <h3 class="wd-retweets">5,218 Tweets</h3>
-            </div>
-            <p class="wd-know-more wd-float-right">...</p>
-            <div class="wd-float-done"></div>
-        </div>
-
-
-        <!--        Suggested Post with author-->
-        <div class="wd-suggested-post">
-            <div class="wd-float-left">
-                <h3 class="wd-suggested-author">The New York Times &#x2713;.</h3>
-                <p class="wd-suggested-posting-date">Yesterday</p>
-                <h1 class="wd-suggested-title">CNN's Cuomo Conundrum: A star Anchor with a brother in trouble</h1>
-            </div>
-            <img class="wd-float-right wd-round-corners wd-right-16" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXFll5foc48eCDh8MqT4hq5fQG48lnn4qDgg&usqp=CAU" width="100px" height="100px"/>
-            <div class="wd-float-done"></div>
-        </div>
-
-        <div class="wd-suggested-post">
-            <div class="wd-float-left">
-                <h3 class="wd-suggested-topic">COVID-19 . LIVE</h3>
-                <h1 class="wd-suggested-title">COVID-19: News and updates for Massachusetts</h1>
-            </div>
-            <img class="wd-float-right wd-round-corners wd-right-16" src="data:image/png;base64,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" width="100px" height="100px"/>
-            <div class="wd-float-done"></div>
-        </div>
-
-        <div class="wd-suggested-post">
-            <div class="wd-float-left">
-                <h3 class="wd-suggested-author">Bloomberg Opinion &#x2713;.</h3>
-                <p class="wd-suggested-posting-date">Yesterday</p>
-                <h1 class="wd-suggested-title">Thinking about getting a booster? Read this first.</h1>
-            </div>
-
-            <img class="wd-float-right wd-round-corners wd-right-16"
-                 src="https://media.newyorker.com/photos/614ca8856f5d63f7f467ac61/2:2/w_1
-            560,h_1561,c_limit/Rosner-CelineGounder.jpg" width="100px" height="100px"/>
-            <div class="wd-float-done"></div>
-        </div>
-
-        <div class="wd-suggested-post">
-            <div class="wd-float-left">
-                <h3 class="wd-suggested-topic">Trending in United States</h3>
-                <h1 class="wd-suggested-title">Wonder Bread</h1>
-                <h3 class="wd-retweets">1,259 Tweets</h3>
-            </div>
-            <p class="wd-know-more wd-float-right">...</p>
-            <div class="wd-float-done"></div>
-        </div>
-
     </div>
+
+</div>
 </body>
 </html>
