@@ -44,10 +44,9 @@ const ExploreComponent = () => {
           </ul>
         </div>
             <div class="position-relative border-start border-end border-secondary">
-              <img src="https://i.ytimg.com/vi/bZYPI4mYwhw/maxresdefault.jpg" width="100%"/>
+              <img src="https://techcrunch.com/wp-content/uploads/2019/09/Starship-Mk1-Day.jpg" width="100%"/>
               <div class="position-absolute bottom-0 left-0 me-1 mb-1 text-white">
-                <p class="ms-2 mb-0">Music . Last night</p>
-                <h4 class="ms-2">BTS and Coldplay release their new song, My Universe 🪐</h4>
+                <h4 class="ms-2">SpaceX Spaceship</h4>
               </div>
             </div>  
             <ul class="list-group border border-secondary rounded-0">
