@@ -49,7 +49,6 @@ const PostListItem = (post) => {
                     <div>
                         <i class="fa fa-download wd-float-left m-1" aria-hidden="true"></i>
 
-                        <p class="wd-grey wd-float-left wd-left-pad-12 wd-no-top-margin">22</p>
                     </div>
                 </li>
                 <div class="wd-float-done"></div>
