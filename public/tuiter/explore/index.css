@@ -48,6 +48,10 @@ body {
     background: lightblue;
 }
 
+.wd-nav-active {
+    background: blue;
+}
+
 .wd-nav-tabs li {
     list-style-type: none;
     display: inline-block;
