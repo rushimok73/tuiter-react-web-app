@@ -8,7 +8,7 @@ const NavigationSidebar = (active) => {
     </div>
     <div class="wd-nav-explore list-group-item list-group-item-action">
       <i class="fas fa-hashtag" style="color: white"></i>
-      <a class="text-decoration-none d-none d-xl-inline text-white pt-1" style="margin-left: 20px;" href="/tuiter/explore/index.html"> Explore</a>
+      <a class="text-decoration-none d-none d-xl-inline text-white pt-1" style="margin-left: 20px;" href="/tuiter/explorez/index.html"> Explore</a>
     </div>
     <div class="wd-nav-notifications list-group-item list-group-item-action">
       <i class="fas fa-bell" style="color: white"></i>
