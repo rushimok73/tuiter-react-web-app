@@ -3,7 +3,7 @@ import tuits from './tuits.json';
 
 const currentUser = {
     "userName": "NASA",
-    "handle": "@nasa",
+    "handle": "nasa",
     "displayPicture": "/images/nasa.jpeg",
 };
 
