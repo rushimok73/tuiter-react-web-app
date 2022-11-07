@@ -52,6 +52,8 @@ body {
 }
 
 .wd-user-info {
+    padding-left: 11px;
+    padding-bottom: 0px;
     font-size: 15px;
 }
 
@@ -136,7 +138,6 @@ body {
 }
 
 .wd-text-padding-no-bottom-12 {
-    padding-top: 12px;
     padding-left: 12px;
     padding-right: 12px;
 }

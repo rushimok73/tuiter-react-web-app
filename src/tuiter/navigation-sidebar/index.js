@@ -5,7 +5,7 @@ import {useLocation} from "react-router";
 const NavigationSidebar = () => {
     const {pathname} = useLocation();
     const paths = pathname.split('/')
-    const active = paths[2];
+    const active = paths[2] === '' ? 'home' : paths[2];
     return (
         <div className="list-group">
             <a className="list-group-item">Tuiter</a>
@@ -34,10 +34,10 @@ const NavigationSidebar = () => {
                     ${active === 'lists'?'active':''}`}>
                 Lists
             </a>
-            <a className={`list-group-item
-                    ${active === 'profile'?'active':''}`}>
+            <Link to="/tuiter/profile" className={`list-group-item
+                    ${active === 'profile' || 'edit-profile'?'active':''}`}>
                 Profile
-            </a>
+            </Link>
             <a className={`list-group-item
                     ${active === 'more'?'active':''}`}>
                 More
